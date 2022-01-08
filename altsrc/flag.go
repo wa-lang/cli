@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/urfave/cli/v2"
+	"github.com/wa-lang/cli"
 )
 
 // FlagInputSourceExtension is an extension interface of cli.Flag that

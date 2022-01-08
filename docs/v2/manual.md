@@ -45,7 +45,7 @@ cli v2 manual
 There are a small set of breaking changes between v1 and v2.
 Converting is relatively straightforward and typically takes less than
 an hour. Specific steps are included in
-[Migration Guide: v1 to v2](../migrate-v1-to-v2.md). Also see the [pkg.go.dev docs](https://pkg.go.dev/github.com/urfave/cli/v2) for v2 API documentation.
+[Migration Guide: v1 to v2](../migrate-v1-to-v2.md). Also see the [pkg.go.dev docs](https://pkg.go.dev/github.com/wa-lang/cli) for v2 API documentation.
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ package main
 import (
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -84,7 +84,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -127,7 +127,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -192,7 +192,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -225,7 +225,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -272,7 +272,7 @@ import (
   "os"
   "fmt"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -308,7 +308,7 @@ func main() {
 }
 ```
 
-See full list of flags at https://pkg.go.dev/github.com/urfave/cli/v2
+See full list of flags at https://pkg.go.dev/github.com/wa-lang/cli
 
 #### Placeholder Values
 
@@ -328,7 +328,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -374,7 +374,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -420,7 +420,7 @@ import (
   "os"
   "sort"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -490,7 +490,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -527,7 +527,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -565,7 +565,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -637,8 +637,8 @@ import (
   "fmt"
   "os"
 
-  "github.com/urfave/cli/v2"
-  "github.com/urfave/cli/v2/altsrc"
+  "github.com/wa-lang/cli"
+  "github.com/wa-lang/cli/altsrc"
 )
 
 func main() {
@@ -676,7 +676,7 @@ package main
 import (
   "log"
   "os"
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -732,7 +732,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -785,7 +785,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -857,7 +857,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -911,7 +911,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -962,7 +962,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1022,7 +1022,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"github.com/urfave/cli/v2"
+	"github.com/wa-lang/cli"
 )
 func main() {
 	app := cli.NewApp()
@@ -1091,7 +1091,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1190,7 +1190,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1268,7 +1268,7 @@ import (
   "io"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1325,7 +1325,7 @@ package main
 import (
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1361,7 +1361,7 @@ package main
 import (
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1392,7 +1392,7 @@ import (
   "fmt"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 var (
@@ -1428,7 +1428,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func main() {
@@ -1475,7 +1475,7 @@ import (
   "os"
   "time"
 
-  "github.com/urfave/cli/v2"
+  "github.com/wa-lang/cli"
 )
 
 func init() {
